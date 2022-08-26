@@ -464,6 +464,10 @@ template {
   padding: 30px;
 }
 
+.pitsa__right__btn {
+  padding: 10px 20px;
+}
+
 #pitsa-select {
   width: 150px;
   background-color: #e0e0e0;
