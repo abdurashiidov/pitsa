@@ -449,7 +449,11 @@ template {
 }
 
 .pitsa__left__wrap-complete {
-  font-size: 26px;
+  font-size: 20px;
+}
+
+.pitsa__left__wrap-complete:nth-child(1n) {
+  margin-right: 20px;
 }
 
 #pitsa-select {

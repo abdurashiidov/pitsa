@@ -63,7 +63,10 @@
             margin-bottom: 10px;
         }
         &__wrap-complete{
-            font-size: 26px;
+            font-size: 20px;
+            &:nth-child(1n){
+                margin-right: 20px;
+            }
         }
     }
 }
