@@ -437,6 +437,10 @@ template {
           flex-direction: column;
 }
 
+.pitsa__left__wrap-things__wrap {
+  font-size: 26px;
+}
+
 .pitsa__left__heading4 {
   margin: 0;
   padding: 0;
