@@ -452,7 +452,7 @@ template {
   font-size: 20px;
 }
 
-.pitsa__left__wrap-complete:nth-child(1n) {
+.pitsa__left__wrap-complete:nth-child(1) {
   margin-right: 20px;
 }
 
