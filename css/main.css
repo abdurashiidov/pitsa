@@ -448,6 +448,10 @@ template {
   margin-bottom: 10px;
 }
 
+.pitsa__left__wrap-complete {
+  font-size: 26px;
+}
+
 #pitsa-select {
   width: 150px;
   background-color: #e0e0e0;
