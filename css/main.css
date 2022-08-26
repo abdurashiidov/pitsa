@@ -439,6 +439,9 @@ template {
 
 .pitsa__left__wrap-things__wrap {
   font-size: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .pitsa__left__heading4 {
