@@ -521,6 +521,10 @@ input:change {
   font-weight: 700;
 }
 
+.active_round:focus {
+  background-color: red;
+}
+
 .elRoundRed {
   background-color: red;
   padding: 30px;
