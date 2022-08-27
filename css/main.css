@@ -521,8 +521,13 @@ input:change {
   font-weight: 700;
 }
 
-.active_round:focus {
-  background-color: red;
+.active_round:hover {
+  background-color: #d5d0d0;
+}
+
+.active_round:active {
+  background-color: black;
+  color: white;
 }
 
 .elRoundRed {
