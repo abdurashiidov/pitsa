@@ -385,7 +385,7 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 40px 400px;
+  margin: 20px 300px;
 }
 
 .pitsa__left {
@@ -452,6 +452,7 @@ template {
 }
 
 .pitsa__right {
+  width: 430px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -466,6 +467,20 @@ template {
 .pitsa__right__btn {
   padding: 10px 20px;
   background-color: #FB6445;
+  border-radius: 5px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.pitsa__right__btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.pitsa__right__btn:active {
+  background-color: #423939;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 
 #pitsa-select {
@@ -475,9 +490,21 @@ template {
   padding: 3px;
 }
 
-.active-label {
+input:change {
+  background-color: cyan;
+}
+
+#sosiskali {
+  margin-left: 30px;
+}
+
+.elActiveLabel {
+  background-color: red;
+}
+
+.active_round {
   padding: 30px;
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 50%;
   margin-right: 25px;
   width: 50px;
@@ -491,25 +518,27 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-weight: 700;
 }
 
-#size {
-  display: none;
-}
-
-#size2 {
-  display: none;
-}
-
-#size3 {
-  display: none;
-}
-
-input:checked {
-  background-color: cyan;
-}
-
-#sosiskali {
-  margin-left: 30px;
+.elRoundRed {
+  background-color: red;
+  padding: 30px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin-right: 25px;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
