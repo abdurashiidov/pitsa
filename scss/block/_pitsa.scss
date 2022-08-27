@@ -141,7 +141,7 @@ input:change{
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    &:active{
+    &:focus{
         background-color: red;
     }
 }
