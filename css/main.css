@@ -521,7 +521,7 @@ input:change {
   font-weight: 700;
 }
 
-.active_round:focus {
+.active_round:active {
   background-color: red;
 }
 
