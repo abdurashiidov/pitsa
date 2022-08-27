@@ -20,7 +20,7 @@ elSelectQan.addEventListener("change", ()=>{
 })
 
 //! size function
-console.log(elRound1);
+
 
 //! things function
 for (let i = 0; i < elActivUst.length; i++) {
