@@ -20,11 +20,11 @@ elSelectQan.addEventListener("change", ()=>{
 })
 
 //! size function
-for (let i = 0; i < array.length; i++) { 
-    if (i == [0]) {
-      console.log("ok");
-    }
-}
+// for (let i = 0; i < array.length; i++) { 
+//     if (i == [0]) {
+//       console.log("ok");
+//     }
+// }
 
 //! things function
 for (let i = 0; i < elActivUst.length; i++) {
