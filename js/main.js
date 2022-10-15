@@ -20,16 +20,18 @@ elSelectQan.addEventListener("change", ()=>{
 })
 
 //! size function
-
+for (let i = 0; i < array.length; i++) {
+    
+}
 
 //! things function
 for (let i = 0; i < elActivUst.length; i++) {
   elActivUst[i].addEventListener("click", (evt) =>{
     if (elActivUst[i].checked) {
       elUst[i].textContent = evt.target.value 
-    } else{
+    } else{ 
       elUst[i].textContent = ""
-    }
+    } 
   })
 }
 
