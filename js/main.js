@@ -40,7 +40,6 @@ for (let i = 0; i < elActivUst.length; i++) {
 
 //! qoshimcha function
 for (let i = 0; i < elActivQosh.length; i++) {
-  
   elActivQosh[i].addEventListener("click", (evt) =>{
     if(elActivQosh[i].checked){
       elQoshim[i].textContent = evt.target.value
