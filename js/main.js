@@ -13,7 +13,6 @@ const elActivQosh = document.querySelectorAll(".activ-qosh")
 const elActivUst = document.querySelectorAll(".active-ust")
 
 
-
 //! noni function
 elSelectQan.addEventListener("change", ()=>{
   elNoni.textContent = elSelectQan.value
