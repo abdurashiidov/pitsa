@@ -49,3 +49,4 @@ for (let i = 0; i < elActivQosh.length; i++) {
   })
 
 }
+
