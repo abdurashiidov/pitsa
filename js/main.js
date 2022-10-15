@@ -21,7 +21,7 @@ elSelectQan.addEventListener("change", ()=>{
 
 //! size function
 for (let i = 0; i < array.length; i++) {
-    if (condition) {
+    if (i == [0]) {
       
     }
 }
