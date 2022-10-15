@@ -18,6 +18,7 @@ elSelectQan.addEventListener("change", ()=>{
   elNoni.textContent = elSelectQan.value
 })
 
+
 //! size function
 // for (let i = 0; i < array.length; i++) { 
 //     if (i == [0]) {
